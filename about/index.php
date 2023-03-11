@@ -72,8 +72,8 @@
                     </div>
 
                     <div class="profile-pic" data-aos="fade-up">
-                        <img src="images/profile-pic.jpg" 
-                             srcset="/images/profile-pic.jpg 1x, images/profile-pic@2x.jpg 2x" alt="">
+                        <img src="/images/profile-pic.jpg" 
+                             srcset="/images/profile-pic.jpg 1x, /images/profile-pic@2x.jpg 2x" alt="">
                     </div>
 
                     <h3 data-aos="fade-up">Profile</h3>
