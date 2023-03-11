@@ -8,13 +8,13 @@ var_dump($_SERVER['REQUEST_URI']);
 
 <!-- header
     ================================================== -->
-    <header class="s-header sticky offset scrolling">
+    <header class="s-header <?php echo $location == "" ? "" : "sticky offset scrolling" ?> ">
 
 
     
         <div class="header-logo">
             <a href="index.html">
-                <img src="images/logo.svg" alt="Homepage">
+                <img src="/images/logo.svg" alt="Homepage">
             </a>
         </div>
 

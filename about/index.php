@@ -10,22 +10,26 @@
     <meta name="author" content="">
 
   
-<?php require('includes/head.php'); ?>
+<?php require('../includes/head.php'); ?>
 </head>
 
 <body id="top">
 
 
-  <?php require('includes/preloader.php'); ?>
+  <?php require('../includes/preloader.php'); ?>
  
-  <?php require('includes/scripts.php'); ?>
+  <?php require('../includes/scripts.php'); ?>
 
 
 
 
-  <div class="header-logo">
+  <header class="s-header <?php echo $location == "/" ? "" : "sticky offset scrolling" ?> ">
+
+
+    
+        <div class="header-logo">
             <a href="index.html">
-                <img src="images/logo.svg" alt="Homepage">
+                <img src="/images/logo.svg" alt="Homepage">
             </a>
         </div>
 
@@ -47,6 +51,7 @@
 
         <a class="header-menu-toggle" href="#0"><span>Menu</span></a>
 
+    </header> 
     
 
 
@@ -68,7 +73,7 @@
 
                     <div class="profile-pic" data-aos="fade-up">
                         <img src="images/profile-pic.jpg" 
-                             srcset="images/profile-pic.jpg 1x, images/profile-pic@2x.jpg 2x" alt="">
+                             srcset="/images/profile-pic.jpg 1x, images/profile-pic@2x.jpg 2x" alt="">
                     </div>
 
                     <h3 data-aos="fade-up">Profile</h3>
@@ -181,7 +186,44 @@
     </section> <!-- end s-about -->
 
 
-    
+     <!-- photoswipe background
+    ================================================== -->
+    <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
+
+        <div class="pswp__bg"></div>
+        <div class="pswp__scroll-wrap">
+
+            <div class="pswp__container">
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+            </div>
+
+            <div class="pswp__ui pswp__ui--hidden">
+                <div class="pswp__top-bar">
+                    <div class="pswp__counter"></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button> <button class="pswp__button pswp__button--share" title=
+                    "Share"></button> <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom" title=
+                    "Zoom in/out"></button>
+                    <div class="pswp__preloader">
+                        <div class="pswp__preloader__icn">
+                            <div class="pswp__preloader__cut">
+                                <div class="pswp__preloader__donut"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                    <div class="pswp__share-tooltip"></div>
+                </div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button> <button class="pswp__button pswp__button--arrow--right" title=
+                "Next (arrow right)"></button>
+                <div class="pswp__caption">
+                    <div class="pswp__caption__center"></div>
+                </div>
+            </div>
+
+        </div>
+
+    </div> <!-- end photoSwipe background -->
 
 
    

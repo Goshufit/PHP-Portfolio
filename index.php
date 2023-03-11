@@ -10,15 +10,15 @@
     <meta name="author" content="">
 
   
-<?php require('includes/head.php'); ?>
+<?php require('./includes/head.php'); ?>
 </head>
 
 <body id="top" class="home__page">
 
 
-  <?php require('includes/preloader.php'); ?>
-  <?php require('includes/header.php'); ?>
-  <?php require('includes/scripts.php'); ?>
+  <?php require('./includes/preloader.php'); ?>
+  <?php require('./includes/header.php'); ?>
+  <?php require('./includes/scripts.php'); ?>
 
 
     
@@ -26,7 +26,7 @@
 
     <!-- hero - Home Page 
     ================================================== -->
-    <section id="hero" class="s-hero target-section" data-parallax="scroll" data-image-src="images/hero-bg-3000.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=center>
+    <section id="hero" class="s-hero target-section" data-parallax="scroll" data-image-src="/images/hero-bg-3000.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=center>
 
         <div class="row hero-content">
 
@@ -81,8 +81,8 @@
                     </div>
 
                     <div class="profile-pic" data-aos="fade-up">
-                        <img src="images/profile-pic.jpg" 
-                             srcset="images/profile-pic.jpg 1x, images/profile-pic@2x.jpg 2x" alt="">
+                        <img src="/images/profile-pic.jpg" 
+                             srcset="/images/profile-pic.jpg 1x, images/profile-pic@2x.jpg 2x" alt="">
                     </div>
 
                     <h3 data-aos="fade-up">Profile</h3>
@@ -331,8 +331,8 @@
                 <div class="folio-item">
                     <div class="folio-item__thumb">
                         <a class="folio-item__thumb-link" href="images/portfolio/gallery/g-windows-in-the-city.jpg" title="Windows in The City" data-size="1050x700">
-                            <img src="images/portfolio/windows-in-the-city.jpg" 
-                                 srcset="images/portfolio/windows-in-the-city.jpg 1x, images/portfolio/windows-in-the-city@2x.jpg 2x" alt="">
+                            <img src="/images/portfolio/windows-in-the-city.jpg" 
+                                 srcset="/images/portfolio/windows-in-the-city.jpg 1x, images/portfolio/windows-in-the-city@2x.jpg 2x" alt="">
                         </a>
                     </div>
                     <div class="folio-item__info">
@@ -349,8 +349,8 @@
                 <div class="folio-item">
                     <div class="folio-item__thumb">
                         <a class="folio-item__thumb-link" href="images/portfolio/gallery/g-building-blocks.jpg" title="Building Blocks" data-size="1050x700">
-                            <img src="images/portfolio/building-blocks.jpg" 
-                                 srcset="images/portfolio/building-blocks.jpg 1x, images/portfolio/building-blocks@2x.jpg 2x" alt="">
+                            <img src="/images/portfolio/building-blocks.jpg" 
+                                 srcset="/images/portfolio/building-blocks.jpg 1x, images/portfolio/building-blocks@2x.jpg 2x" alt="">
                         </a>
                     </div>
                     <div class="folio-item__info">
@@ -385,8 +385,8 @@
                 <div class="folio-item">
                     <div class="folio-item__thumb">
                         <a class="folio-item__thumb-link" href="images/portfolio/gallery/g-sand-dunes.jpg" title="Sand Dunes" data-size="1050x700">
-                            <img src="images/portfolio/sand-dunes.jpg" 
-                                 srcset="images/portfolio/sand-dunes.jpg 1x, images/portfolio/sand-dunes@2x.jpg 2x" alt="">
+                            <img src="/images/portfolio/sand-dunes.jpg" 
+                                 srcset="/images/portfolio/sand-dunes.jpg 1x, images/portfolio/sand-dunes@2x.jpg 2x" alt="">
                         </a>
                     </div>
                     <div class="folio-item__info">
@@ -403,8 +403,8 @@
                 <div class="folio-item">
                     <div class="folio-item__thumb">
                         <a class="folio-item__thumb-link" href="images/portfolio/gallery/g-woodcraft.jpg" title="Sand Dunes" data-size="1050x700">
-                            <img src="images/portfolio/woodcraft.jpg" 
-                                 srcset="images/portfolio/woodcraft.jpg 1x, images/portfolio/woodcraft@2x.jpg 2x" alt="">
+                            <img src="/images/portfolio/woodcraft.jpg" 
+                                 srcset="/images/portfolio/woodcraft.jpg 1x, images/portfolio/woodcraft@2x.jpg 2x" alt="">
                         </a>
                     </div>
                     <div class="folio-item__info">
@@ -421,8 +421,8 @@
                 <div class="folio-item">
                     <div class="folio-item__thumb">
                         <a class="folio-item__thumb-link" href="images/portfolio/gallery/g-lamp.jpg" title="The Lamp" data-size="1050x700">
-                            <img src="images/portfolio/lamp.jpg" 
-                                 srcset="images/portfolio/lamp.jpg 1x, images/portfolio/lamp@2x.jpg 2x" alt="">
+                            <img src="/images/portfolio/lamp.jpg" 
+                                 srcset="/images/portfolio/lamp.jpg 1x, images/portfolio/lamp@2x.jpg 2x" alt="">
                         </a>
                     </div>
                     <div class="folio-item__info">
@@ -458,7 +458,7 @@
                         Laudantium quia consequatur molestias delectus culpa.
                         </p>
                         <div class="testimonial-slider__author">
-                            <img src="images/avatars/user-02.jpg" alt="Author image" class="testimonial-slider__avatar">
+                            <img src="/images/avatars/user-02.jpg" alt="Author image" class="testimonial-slider__avatar">
                             <cite class="testimonial-slider__cite">
                                 <strong>Tim Cook</strong>
                                 <span>CEO, Apple</span>
@@ -473,7 +473,7 @@
                         Quasi voluptas eius distinctio. Atque eos maxime.
                         </p>
                         <div class="testimonial-slider__author">
-                            <img src="images/avatars/user-01.jpg" alt="Author image" class="testimonial-slider__avatar">
+                            <img src="/images/avatars/user-01.jpg" alt="Author image" class="testimonial-slider__avatar">
                             <cite class="testimonial-slider__cite">
                                 <strong>Sundar Pichai</strong>
                                 <span>CEO, Google</span>
@@ -488,7 +488,7 @@
                         Voluptatem dignissimos ut.
                         </p>
                         <div class="testimonial-slider__author">
-                            <img src="images/avatars/user-04.jpg" alt="Author image" class="testimonial-slider__avatar">
+                            <img src="/images/avatars/user-04.jpg" alt="Author image" class="testimonial-slider__avatar">
                             <cite class="testimonial-slider__cite">
                                 <strong>Satya Nadella</strong>
                                 <span>CEO, Microsoft</span>
@@ -503,7 +503,7 @@
                         Nihil ea quia nesciunt. Ducimus aut sed ipsam.
                         </p>
                         <div class="testimonial-slider__author">
-                            <img src="images/avatars/user-05.jpg" alt="Author image" class="testimonial-slider__avatar">
+                            <img src="/images/avatars/user-05.jpg" alt="Author image" class="testimonial-slider__avatar">
                             <cite class="testimonial-slider__cite">
                                 <strong>Jeff Bezos</strong>
                                 <span>CEO, Amazon</span>
