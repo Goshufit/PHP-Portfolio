@@ -248,29 +248,29 @@
 
   /* smooth scrolling
    * ------------------------------------------------------ */
-  const ssSmoothScroll = function () {
-    $(".smoothscroll").on("click", function (e) {
-      const target = this.hash;
-      const $target = $(target);
+  // const ssSmoothScroll = function () {
+  //   $(".smoothscroll").on("click", function (e) {
+  //     const target = this.hash;
+  //     const $target = $(target);
 
-      e.preventDefault();
-      e.stopPropagation();
+  //     e.preventDefault();
+  //     e.stopPropagation();
 
-      $("html, body")
-        .stop()
-        .animate(
-          {
-            scrollTop: $target.offset().top,
-          },
-          cfg.scrollDuration,
-          "swing"
-        )
-        .promise()
-        .done(function () {
-          window.location.hash = target;
-        });
-    });
-  };
+  //     $("html, body")
+  //       .stop()
+  //       .animate(
+  //         {
+  //           scrollTop: $target.offset().top,
+  //         },
+  //         cfg.scrollDuration,
+  //         "swing"
+  //       )
+  //       .promise()
+  //       .done(function () {
+  //         window.location.hash = target;
+  //       });
+  //   });
+  // };
 
   /* back to top
    * ------------------------------------------------------ */
